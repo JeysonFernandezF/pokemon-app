@@ -13,25 +13,21 @@ const CardPokemon = ({img,nombre,tipo}) => {
             
             <div className="tipos">
             
-                {types.map((type) => (
+                {types.map((type) => 
 
-                    <>
-                        {tipo.map((tipo) => (
+                    
+                    { return tipo.map((tipo) => 
 
-                                < >
-                                    {type._id === tipo &&
+                            
+                        {return type._id === tipo &&
 
-                                        <Grid xs={6} className={`tipo-card ${type.nombre} ` }>
-                                            {type.nombre}
-                                        </Grid>
-                                    }
-                                </>
-
-
-                            ))
+                            <Grid xs={6} className={`tipo-card ${type.nombre} ` }>
+                                {type.nombre}
+                            </Grid>
                         }
-                    </>
-                ))}
+                    )}
+                    
+                )}
 
 
             

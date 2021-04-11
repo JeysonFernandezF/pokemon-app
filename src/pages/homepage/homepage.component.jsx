@@ -96,20 +96,22 @@
                                 </h2>
 
                                 <Grid container  className="filtrados">
-                                    {tipos.map(({_id, selected, ...otherTiposProps}) => (
+                                    {tipos.map(({_id, selected, ...otherTiposProps}) => 
                                         
-                                        <>
-                                        { selected &&
+                                        
+                                        { return selected &&
                                             
 
+                                            (
                                             <Grid item xs={2}>
                                                 
                                                     <CollectionFilterItem  key={_id} agregarFiltro={this.agregarFiltro} id={_id} selected={selected} {...otherTiposProps}/>
                                                 
                                             </Grid>
+                                            )
                                         }
-                                        </>
-                                    )
+                                        
+                                    
                                             
                                         )}
                                 </Grid>
