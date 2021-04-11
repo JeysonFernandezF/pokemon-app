@@ -1,0 +1,11 @@
+.form-evolutiva{
+    margin-left: 30px ;
+    h2{
+        width: 100%;
+    }
+    .pokemon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,19 @@
+.header{
+
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+
+    a{
+
+        padding: 10px;
+
+        font-size: 1.2em;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+    }
+
+    background-color: red;
+}

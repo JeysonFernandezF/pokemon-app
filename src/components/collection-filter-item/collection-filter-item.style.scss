@@ -1,0 +1,139 @@
+
+.tipo{
+    cursor: pointer;
+    
+
+    padding: 10px 10px 10px 10px;
+
+    margin-top: 5px;
+
+    width: 200px;
+    height: 20px;
+
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+
+    
+}
+
+.activa{
+    margin-left: 15px;
+}
+
+
+.Fuego{
+    background-color: #FF4B5C;
+    &:hover{
+        background-color: darken( #FF4B5C, 10%);
+    }
+
+    
+}
+.Planta{
+    background-color: #358353;
+    &:hover{
+        background-color: darken( #358353, 10%);
+    }
+}
+.Agua{
+    background-color: #82A9FE;
+    &:hover{
+        background-color: darken( #82A9FE, 10%);
+    }
+}
+.Volador{
+    background-color: #96B9CD;
+    &:hover{
+        background-color: darken( #96B9CD, 10%);
+    }
+}
+.Roca{
+    background-color: #452418;
+    &:hover{
+        background-color: darken( #452418, 10%);
+    }
+}
+.Acero{
+    background-color: #45C59A;
+    &:hover{
+        background-color: darken( #45C59A, 10%);
+    }
+}
+.Veneno{
+    background-color: #6F5E88;
+    &:hover{
+        background-color: darken( #6F5E88, 10%);
+    }
+}
+.Tierra{
+    background-color: #B0742C;
+    &:hover{
+        background-color: darken( #B0742C, 10%);
+    }
+}
+.Dragon{
+    background-color: #59929B;
+    &:hover{
+        background-color: darken( #59929B, 10%);
+    }
+}
+.Fantasma{
+    background-color: #946997;
+    &:hover{
+        background-color: darken( #946997, 10%);
+    }
+}
+.Siniestro{
+    background-color: #5B597E ;
+    &:hover{
+        background-color: darken( #5B597E, 10%);
+    }
+}
+.Psiquico{
+    background-color: #E9278E;
+    &:hover{
+        background-color: darken( #E9278E, 10%);
+    }
+}
+.Electrico{
+    background-color: #EBEA50;
+    &:hover{
+        background-color: darken( #EBEA50, 20%);
+    }
+}
+.Hada{
+    background-color: #993255;
+    &:hover{
+        background-color: darken( #993255, 10%);
+    }
+}
+.Normal{
+    background-color: #74575E;
+    &:hover{
+        background-color: darken( #74575E, 10%);
+    }
+}
+.Hielo{
+    background-color: #93D1E8;
+    &:hover{
+        background-color: darken( #93D1E8, 10%);
+    }
+}
+.Bicho{
+    background-color: #1E4C26;
+    &:hover{
+        background-color: darken( #1E4C26, 10%);
+    }
+}
+.Lucha{
+    background-color: #F25F2C;
+    &:hover{
+        background-color: darken( #F25F2C, 10%);
+    }
+}
